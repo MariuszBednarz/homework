@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+header {
+    margin-top: 5px;
+    height: 40px;
+    width: 100%;
+    background-color: darksalmon;
+}
+
+header>a {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 15px;
+    line-height: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+header>a:nth-child(1):hover {
+    color: lightgray;
+}
+
+header>a:nth-child(1) {
+    margin-right: 60vw;
+}
+
+.devstock {
+    width: 100%;
+    height: 25vh;
+    background-image: url(https://www.incimages.com/uploaded_files/image/1920x1080/getty_548298907_9706479704500126_78156.jpg);
+    background-size: cover;
+}
+
+.devstock p {
+    display: inline-block;
+    margin: 5vh 0 0 50px;
+    font-size: 36px;
+    font-weight: bold;
+    color: darksalmon;
+    border-right: darksalmon solid 2px;
+}
+
+.articles {
+    text-align: center;
+}
+
+.articles h1 {
+    margin: 30px 0 20px 0;
+}
+
+.articles h2 {
+    color: #bbb;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.articlesWrapper {
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+div.article {
+    background-color: linen;
+    margin: 20px;
+    padding: 20px;
+}
+
+div.article:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+div.article h3 {
+    margin-bottom: 20px;
+}
+
+div.article p {
+    font-size: 12px;
+}
+
+footer {
+    height: 35vh;
+    width: 100%;
+    background-color: darksalmon;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .about {
+    width: 40vw;
+    padding: 30px 0 0 20px;
+}
+
+footer .devstocklogo {
+    align-self: flex-end;
+    height: 250px;
+    width: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://devstock.pl/static/afcceb789117e5f1ad2fc32bcf7fb076/abbe7/NewsletterDSABlack.png);
+}
+
+footer .devstocklogo a {
+    display: block;
+    height: 250px;
+    width: 250px;
+
+}
+
+footer .form {
+    width: 30vw;
+}
+
+footer .form h1 {
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+}
+
+footer .form label {
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+footer .form label input {
+    display: block;
+    margin: 15px 0;
+    padding: 2px;
+}
+
+footer .form label input {
+    width: 200px;
+    font-size: 16px;
+}
+
+
+footer .form p {
+    display: inline-block;
+}
+
+button {
+    display: block;
+    margin: 15px 0;
+    background-color: #000;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+}
+
+button:hover {
+    opacity: 50%;
+    transition: .5s;
+}
