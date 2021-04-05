@@ -108,7 +108,7 @@ console.log(arr5[1])
 
 // g) właściwość .length służy do wyświetlania długości tablicy
 const arr6 = ["Pierwszy", "Drugi", "Trzeci"]
-console.log(arr.length)
+console.log(arr6.length)
 
 // h) tworzenie pustej tablicy i dodawanie elementu
 const arr7 = new Array()
