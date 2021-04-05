@@ -64,7 +64,7 @@ div.register {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    font-weight: bolder;
+    font-weight: 800;
     font-size: 16px;
 }
 
@@ -121,6 +121,12 @@ div.checkbox {
     font-weight: bold;
 }
 
+.checkbox p a {
+    text-decoration: none;
+    color: black;
+    border-bottom: #413fb5 2px solid;
+}
+
 .form button {
     display: block;
     width: 280px;
@@ -136,4 +142,10 @@ div.checkbox {
     margin: 20px;
     font-size: 10px;
     font-weight: bold;
+}
+
+.form>p a {
+    text-decoration: none;
+    color: black;
+    border-bottom: #413fb5 2px solid;
 }
