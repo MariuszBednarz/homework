@@ -52,43 +52,43 @@ console.log(Change)
 
 // Zadanie 7
 // a)
-const sum = function () {
+function sum() {
     return 2 + 2
 }
 // b)
-const helloWorld = function () {
+function helloWorld() {
     return "Hello World!"
 }
 // c)
-const returnTrue = function () {
+function returnTrue() {
     return true
 }
 // d)
-const modulo = function () {
+function modulo() {
     return 6 % 4
 }
 // e)
-const pow = function () {
+function pow() {
     return Math.pow(3, 4)
 }
 // f)
-const hello = function () {
+function hello() {
     return "Hello! " + "How are you?"
 }
 // g)
-const calc = function () {
+function calc() {
     return 5 * 60
 }
 // h)
-const calc2 = function () {
+function calc2() {
     return 3 * 3600
 }
 // i)
-const calc3 = function () {
+function calc3() {
     return 10 * 9 / 2
 }
 // j)
-const calc4 = function () {
+function calc4() {
     return 200 - 10
 }
 
@@ -136,75 +136,76 @@ console.log(personDetails)
 // Zadanie 10
 
 // a)
-const sum2 = function(a,b) {
+function sum2(a,b) {
     return a + b
 }
 
 // b)
-const returnSentence = function(sentence) {
-    return String (sentence)
+function returnSentence(sentence) {
+    return String(sentence)
 }
 
 // c)
-const returnBoolean = function(boolean) {
+function returnBoolean(boolean) {
     return Boolean(boolean)
 }
 
 // d)
-const divide = function(a,b) {
+function divide(a,b) {
     return a/b
 }
 
 // e)
-const pow2 = function(a,b) {
+function pow2(a,b) {
     return Math.pow(a,b);
 }
 
 // f)
-const returnSentence2 = function(s1,s2) {
+function returnSentence2(s1,s2) {
     return s1 + s2
 } 
 
 // g)
-const minToSec = function(min) {
+function minToSec(min) {
 return min * 60
 }
 
 // h)
-const hrsToSec = function(hrs) {
+function hrsToSec(hrs) {
     return hrs * 3600
 }
 
 // i)
-const triangleArea = function(trHeight, trWidth){
+function triangleArea(trHeight, trWidth){
     return trHeight * trWidth * 0.5
 }
 
 // j)
-const yrsToDays = function(yrs) {
+function yrsToDays(yrs) {
     return yrs*365
 }
 
 // k)
-const pow3 = function(powNumber) {
+function pow3(powNumber) {
     return Math.pow(powNumber, powNumber)
 }
 
 // l)
-const triangleSide = function(side1, side2){
+function triangleSide(side1, side2){
     return  (side1 + side2) - 1
 }
 
 // m)
-const helloUser = function(userName) {
+function helloUser(userName) {
     return "Cześć, " + userName + "!"
 }
 
 // n)
-const userAge = function(dateOfBirth) {
+function userAge(dateOfBirth) {
     return 2021 - dateOfBirth
 }
 
-const userScore = function(throw2p, throw3p) {
+// o)
+function userScore(throw2p, throw3p) {
     return "Your score is " + ((throw2p*2) + (throw3p*3)) + " points!"
 }
