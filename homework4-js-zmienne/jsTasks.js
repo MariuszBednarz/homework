@@ -45,10 +45,10 @@ console.log(2 + 2 * 2)
 console.log("wynik, " + (7 + 5) + " <---")
 
 // Zadanie 6
-let Change = 5;
-Change = true;
-Change = "Devstock Academy";
-console.log(Change)
+let change = 5;
+change = true;
+change = "Devstock Academy";
+console.log(change)
 
 // Zadanie 7
 // a)
@@ -151,8 +151,8 @@ function returnBoolean(boolean) {
 }
 
 // d)
-function divide(a,b) {
-    return a/b
+function modulo2(a,b) {
+    return a%b
 }
 
 // e)
