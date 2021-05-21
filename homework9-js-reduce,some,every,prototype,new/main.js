@@ -26,7 +26,7 @@ console.log(reduceArrayInit)
 // jeśli dodamy initial Value, będzie on accumulatorem, jeśli nie, pierwsza wartość w tablicy będzie accumulatorem
 
 // 5
-// jeśli dodamy initial Value, to będzie ona miała index 0, więc pierwsza wartość w tablicy będzie mieć index 1
+// jeśli dodamy initial Value, pierwsza wartość w tablicy mimo to będzie mieć index 0
 
 // 6
 
